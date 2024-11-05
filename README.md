@@ -11,7 +11,9 @@ A clean, beautiful, responsive portfolio template for Software Developers!
 
 ## Features
 
-⚡️ Fully Responsive \n
+⚡️ Fully Responsive 
+
+
 ⚡️ Valid HTML5 & CSS3
 ⚡️ Typing animation using Typed.js
 ⚡️ Easy to modify
