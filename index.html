@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/3f5327714f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logorushikesh.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front End Developer</p>
+                <h1>Hi, I'm <span>Rushikesh</span><br> Iam From India</h1>
+            </div>
+        </div>
+    </div>
+<!-- ---------about-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="sideimagerushikesh.jpeg">
+                </div>
+                 <div class="about-col-2">
+                   <h1 class="sub-title"> About Me</h1>
+                   <p>To be associated with a dynamic and progressive organization that will allow me to utilize my abilities and
+                    qualifications in the field to add value to the organization while providing me with opportunities for growth.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'technical skills')">Technical Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="technical skills">
+                        <ul>
+                            <li><span>Programming Languages:</span><br>Python, C, Java-basics</li>
+                            <li><span>Others:</span><br>Html, Css, Sql, Dbms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents "  id="achievements">
+                        <ul>
+                            <li><span>2024</span><br>NPTEL Online Certification-Programming in Java.</li>
+                            <li><span>2023-2024</span><br>Proficient at Quick and Precise Typing</li>                      
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>Gurunanak Institute Of Technology Hyderabad</li>
+                            <li><span>2019-2021</span><br>Sri Gayatri Junior College Bachupally Hyderabad</li>
+                            <li><span>2018-2019</span><br>Zilla Parishad HIgh School Kothapally(H)</li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!--- -----------skills---------- -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title"> My Skills</h1>
+            <div class="skills-list">
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Design</h2>
+                    <p>My web designing is a fusion of artistry and functionality, crafting digital experiences that captivate and engage. Each design is a testament to your passion for innovation, weaving together aesthetics and usability to shape the online landscape.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Programmer</h2>
+                    <p>My programming is a testament to precision and creativity, seamlessly weaving logic into elegant solutions. With each line of code, you sculpt digital landscapes, shaping the future with innovation and mastery. My journey is one of perpetual exploration, driven by curiosity and fueled by the passion to push boundaries.</p>
+                        <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-keyboard"></i>
+                    <h2>Precise Typing</h2>
+                    <p>In My typing domain, I'm a virtuoso, effortlessly tapping out words with speed and accuracy. Each keystroke is a note in your symphony of communication, conducted with finesse and precision. Your typing speed is not just a skill; it's a reflection of your mastery in the digital realm, where words flow seamlessly from mind to screen.</p>
+                        <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------portfolio---------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Milestones</h1>
+            <div class="milestones-list">
+                <div class="milestones">
+                    <img src="rushikeshwebdesign.jpg">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>Portfolio website is a digital showcase of my creative journey, where innovation meets elegance in every pixel.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="milestones">
+                    <img src="rushikeshcoding.jpg">
+                    <div class="layer">
+                        <h3>Programming In Java</h3>
+                        <p>Completing My certification in Java programming marks a significant achievement, solidifying my expertise in the language and opening doors to new opportunities in the tech industry.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="milestones">
+                    <img src="rushikeshtyping.jpg">
+                    <div class="layer">
+                        <h3>Typewriting Lower</h3>
+                        <p>Earning my typewriting certification signifies my mastery of keyboard proficiency, a testament to my commitment to precision and efficiency in written communication.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href ="#"class="btn">See more</a>
+        </div>
+    </div>    
+    <!---------contact-------->
+    <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title"> Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>rushikesh0614@gmail.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>9154372466</p>
+              <div class="social-icons">
+                <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/rushike90935970?t=jS4Sgl9NmwUYZd3tQ_4H-g&s=09"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/rushi.__46?igsh=MXRmbGF0b3h0OW93cQ=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/rushi-kesh-doosa-12a1b3293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="Rushikesh Doosa.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit"class="btn btn2">Submit</button>
+            </form>
+            </div>
+        </div>
+    </div> 
+    <div class="copyright">
+        <p>Copyright @Rushikesh.Made with<i class="fa-solid fa-heart"></i></p>
+    </div>
+    </div>     
+    
+    
+    <script>   
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(event, tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    </script>
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script> 
+</body>
+</html>
