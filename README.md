@@ -16,3 +16,10 @@ A clean, beautiful, responsive portfolio template for Software Developers!
 ⚡️ Typing animation using Typed.js <br>
 ⚡️ Easy to modify <br>
 
+## Sections
+
+✔️ Home <br>
+✔️ About <br>
+✔️ Skills <br>
+✔️ Milestones <br>
+✔️ Contact Info <br>
