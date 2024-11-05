@@ -9,17 +9,21 @@ A clean, beautiful, responsive portfolio template for Software Developers!
 ### About Page
 <img width="1440" alt="Screenshot 2024-05-15 at 2 54 42 PM" src="https://github.com/user-attachments/assets/739d76d9-3363-4d2a-91b8-7aa13f32da5a">
 
-## Features
+## Features🗒️
 
 ⚡️ Fully Responsive <br>
 ⚡️ Valid HTML5 & CSS3 <br>
 ⚡️ Typing animation using Typed.js <br>
 ⚡️ Easy to modify <br>
 
-## Sections
+## Sections📚
 
 ✔️ Home <br>
 ✔️ About <br>
 ✔️ Skills <br>
 ✔️ Milestones <br>
 ✔️ Contact Info <br>
+
+## Tools Used 🛠️
+
+* VS Code - To host my static website (HTML, CSS, JS).
